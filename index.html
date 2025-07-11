@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome 6.5.0 CSS CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script> -->
+</head>
+<body>  
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Dhanashree</span></h1>
+            </div>
+        </div>
+    </div>
+<!-- =========================== about =============================================== -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Facilis totam consequatur voluptates enim recusandae consectetur sunt. 
+                        Quasi, eum doloribus accusamus cum ea ex, pariatur, veritatis quidem impedit tempore at in!</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Java</span><br>Backend programming, OOP concepts, exception handling, and multithreading</li>
+                                <li><span>Html/Css</span><br>Semantic markup, responsive layouts, and styling</li>
+                                <li><span>JS</span><br>Dynamic behavior, DOM manipulation, and ES6+ features</li>
+                                <li><span>React</span><br>Dynamic front-end development using component-based architecture</li>
+                                <li><span>Springboot</span><br>Building RESTful APIs, dependency injection, and backend services</li>
+                                <li><span>Database(MySQL/SQL)</span><br>Data storage, Schema design, queries, and CRUD operations</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021-2022</span><br>A full stack developer, specializing in Java Web Development 
+                                    at Mwell Software Solution</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023 MSC (Computer Science) </span><br>ASM College of Commerce , Science & Information Technology, Pune</li>
+                                <li><span>2019 BSC (Computer Science)</span><br>Pratibha College of Commerce and Computer Studies, Pune</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- =======================services===================================== -->
+    
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Frontend Developer</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde qui adipisci perferendis 
+                        assumenda doloremque praesentium iusto doloribus amet expedita architecto quis ullam veritatis dolorem quasi fugiat
+                         recusandae excepturi, totam molestiae.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-brain"></i>
+                    <h2>Backent Developer</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde qui adipisci perferendis 
+                        assumenda doloremque praesentium iusto doloribus amet expedita architecto quis ullam veritatis dolorem quasi fugiat
+                         recusandae excepturi, totam molestiae.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-database"></i>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde qui adipisci perferendis 
+                        assumenda doloremque praesentium iusto doloribus amet expedita architecto quis ullam veritatis dolorem quasi fugiat
+                         recusandae excepturi, totam molestiae.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- =================================projects============================== -->
+
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>ABC project</h3>
+                        <p>dfst htgf bujgf bvft</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>ABC project</h3>
+                        <p>dfst htgf bujgf bvft</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>ABC project</h3>
+                        <p>dfst htgf bujgf bvft</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+<!-- =========================================contact============================== -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-papper-plane"></i> dhanashreephuge18@gmail.com</p>
+                    <p><i class="fas fa-phone"></i>8888151057</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="1ad87130-666b-4b89-b655-7681c52c8030">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Dhanashree.Kindly mail <i class="fas fa-heart"></i> me.</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+             for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+         function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+  const form = document.querySelector("form");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault(); // Prevent default form submission
+
+    const formData = new FormData(form);
+
+    fetch(form.action, {
+      method: form.method,
+      body: formData,
+      headers: {
+        'Accept': 'application/json'
+      }
+    }).then(response => {
+      if (response.ok) {
+        alert("Message sent successfully!");
+        form.reset(); // Clear the form
+      } else {
+        alert("Oops! Something went wrong.");
+      }
+    }).catch(error => {
+      alert("Error: " + error);
+    });
+  });
+</script>
+
+</body>
+</html>
